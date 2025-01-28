@@ -52,7 +52,6 @@ public class DataInitializer {
                         .build();
                 calcParamRepository.save(params);
 
-                // 3) Créer 7 enregistrements SalesProfile pour ce produit
                 List<SalesProfile> salesProfiles = new ArrayList<>();
                 salesProfiles.add(new SalesProfile(null, DayOfWeek.MONDAY,    5, defaultProduct));
                 salesProfiles.add(new SalesProfile(null, DayOfWeek.TUESDAY,   5, defaultProduct));
